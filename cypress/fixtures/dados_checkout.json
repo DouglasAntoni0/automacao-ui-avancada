@@ -1,0 +1,12 @@
+{
+  "nome": "Douglas",
+  "sobrenome": "Automatizador",
+  "pais": "Brasil",
+  "endereco": "Avenida dos Testes, nº 404",
+  "cidade": "São Paulo",
+  "estado": "São Paulo",
+  "cep": "01001-000",
+  "telefone": "11987654321",
+  "email": "douglas.automatizador@teste.com",
+  "comentario": "Anda logo com meu pedido que eu tenho pressa e não tenho tempo pra ficar perdendo"
+}
