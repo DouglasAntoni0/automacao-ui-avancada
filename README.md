@@ -1,51 +1,47 @@
-# Testes End to End - Ebac Shop
-### Exercício para os alunos de Qualidade de software da EBAC 
+# Automação UI Avançada - EBAC Shop
 
-Ebac shop: http://lojaebac.ebaconline.art.br/
+![Cypress](https://img.shields.io/badge/Cypress-E2E-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-automacao-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![QA](https://img.shields.io/badge/QA-UI%20Testing-0A66C2?style=for-the-badge)
 
-## Clonando e executando em sua máquina
+Suíte de testes end-to-end com Cypress para validar fluxos de interface da EBAC Shop. O projeto transforma um exercício de formação em uma entrega organizada, com foco em execução reprodutível e leitura rápida por times técnicos.
 
-### Pré-requisito:
+## O que este projeto demonstra
 
--Node.js - Você encontra em: https://nodejs.org/en/
+| Competência | Aplicação prática |
+| --- | --- |
+| Automação Web/E2E | Execução de cenários sobre uma aplicação de e-commerce |
+| Cypress | Configuração de projeto, navegação e validações em browser |
+| Estratégia de regressão | Base para validar fluxos críticos após mudanças na interface |
+| Comunicação técnica | Documentação objetiva para instalação, execução e manutenção |
 
--Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
+## Escopo técnico
 
--Git: você encontra em: https://git-scm.com/downloads
+- Testes automatizados com Cypress.
+- Configuração de `baseUrl` para a EBAC Shop.
+- Estrutura simples para evoluir cenários de UI.
+- Execução headless ou interativa via Cypress Runner.
 
+## Como executar
 
-Via terminal, rode os seguintes comandos:
-```  
-git clone https://github.com/EBAC-QE/teste-e2e-ebac.git
+```bash
+git clone https://github.com/DouglasAntoni0/automacao-ui-avancada.git
+cd automacao-ui-avancada
+npm install
 ```
-```
-cd teste-e2e-ebac
-```
 
-#### Para instalar as dependencias:
-```
-npm install 
-```
+Executar em modo headless:
 
-#### Para executar em moodo Headlesss via console:
-```
+```bash
 npx cypress run
 ```
 
-#### Para executar via Dashboard:
+Abrir o Cypress Runner:
+
+```bash
+npx cypress open
 ```
-npx cypress open 
-```
-Após abrir o dashboard, selecione um dos navegadores (De preferencia Electron) e siga com as execuções. 
 
+## Resultado técnico
 
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
-
-
-
-
+Este repositório evidencia domínio dos fundamentos de automação web: configuração de ambiente, execução de testes E2E e estrutura inicial para uma suíte de regressão. É uma base direta para evoluir cenários mais robustos com Page Objects, dados dinâmicos e relatórios.
